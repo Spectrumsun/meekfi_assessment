@@ -1,0 +1,31 @@
+.sidebar {
+  background-color: #070707;
+  height: 100vh;
+  padding: 30px;
+  overflow: scroll;
+
+  &__item {
+    display: flex;
+    justify-content: start;
+    padding: 20px 0px 20px;
+    gap: 10px;
+    align-items: flex-start;
+    cursor: pointer;
+  }
+  
+  &__text {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 15px;
+    text-align: center;
+    color: #EAECF0;
+    margin-bottom: 10px;
+  }
+  &__title {
+    color: #98A2B3;
+    margin: 30px 0px;
+  }
+  @media only screen and (max-width: 1324px) {
+    display: none;
+  }
+}
