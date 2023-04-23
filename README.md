@@ -1,5 +1,3 @@
-# Mycover assignment
-
 A dashboard in React 
 
 # View App
