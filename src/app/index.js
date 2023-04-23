@@ -12,7 +12,6 @@ import {
   PointElement,
   ArcElement,
 } from 'chart.js';
-import Sidebar from '../Sidebar';
 import {   
   years, 
   dataSets,
@@ -44,7 +43,6 @@ const App = () => {
   const [networkData, setNetworkData] = useState(networkDatas);
   const [networksState, setNetworksState] = useState(networks);
   const [smartPhoneState, setSmartPhoneState] = useState(products);
-  const [currentTab, setCurrentTab] = useState('summary');
   const [filterCar, setFilterCar] = useState([]);
   const [filterYear, setFilterYear] = useState([]);
 
