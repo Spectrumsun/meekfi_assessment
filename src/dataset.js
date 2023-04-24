@@ -27,7 +27,6 @@ export const colorSets = [
 ]
 
 export const networks = ['GLO', 'MTN', 'AIRTEL', '9MOBILE'];
-
 export const states = ['Auchi', 'Benin', 'Ekpoma'];
 export const months = ['Jan', 'Feb', 'March', 'April', 'May', 'June', 'July', 'Aug', 'Sept', 'Oct', 'Nov', 'Dec'];
 export const years = [2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022];

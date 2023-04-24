@@ -1,4 +1,4 @@
-import  { useState, useRef } from 'react';
+import  { useState } from 'react';
 import Select from 'react-select';
 import makeAnimated from 'react-select/animated';
 import { Bar } from 'react-chartjs-2';
@@ -80,7 +80,7 @@ const BarChat = () =>  {
   };
 
   return (
-    <div>
+    <div className="container__wrapper">
       <div className='container__line-content'>
         <h3>Cities</h3>
         <Select 

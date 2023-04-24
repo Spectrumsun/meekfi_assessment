@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 
 import {
   Chart as ChartJS,
@@ -12,7 +12,6 @@ import {
   PointElement,
   ArcElement,
 } from 'chart.js';
-import { dataSets } from '../dataset';
 import LineChatComponent from '../LineChatComponent';
 import BarChatComponent from '../BarChat';
 import PieChatComponent from '../PieChat';
@@ -31,11 +30,9 @@ ChartJS.register(
   Legend
 );
 
-const App = () => {
-  const [carData, setCarData] = useState(dataSets);
-
-  return (
-    <>
+const App = () =>  (
+  <>
+    <div>
       <nav className="container__navbar">
         <p className="container__navbar-p">Dashboard</p>
       </nav>
@@ -52,8 +49,8 @@ const App = () => {
           <PieChatComponent />
         </div>
       </div>
-    </>
-  );
-}
+    </div>
+  </>
+);
 
 export default App;
