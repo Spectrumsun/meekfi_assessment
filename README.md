@@ -1,7 +1,7 @@
 A dashboard in React 
 
 # View App
-  * Host App https://meekfi-assessment.netlify.app/
+  * Host App https://dashboard-sun.netlify.app/
 
 # ![Screenshot 2023-01-11 at 13 55 56](https://res.cloudinary.com/skybound/image/upload/v1682261809/Screenshot_2023-04-23_at_15.55.42.png)
 
